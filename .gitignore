@@ -1,1 +1,10 @@
+__pycache__/
+
 .venv/
+
+llama3-8b-ov/
+mistral-7b-ov/
+Qwen2.5-VL-3B-Instruct-ov/
+
+*.txt
+*.png
