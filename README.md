@@ -32,7 +32,7 @@ This repository contains examples and tools for running OpenVINO-optimized large
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Thisen-Ekanayake/openvino-server.git
    cd openvino_test
    ```
 
@@ -142,8 +142,3 @@ First run may be slower due to model compilation and caching.
 ## Contributing
 
 Feel free to submit issues, feature requests, or pull requests to improve this collection of OpenVINO examples.
-
-## License
-
-This repository contains example code for educational and testing purposes. Model weights and licensing depend on the original model providers (Mistral AI, Alibaba Cloud).</content>
-<parameter name="filePath">/ml/openvino_test/README.md
