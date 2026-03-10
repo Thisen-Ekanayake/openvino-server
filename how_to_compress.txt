@@ -1,0 +1,28 @@
+========================================
+              COMPRESS LLM              
+========================================
+
+optimum-cli export openvino \
+  --model MODEL_PATH \
+  --task text-generation-with-past \
+  --weight-format int4 \
+  ./COMRPESSED_MODEL_NAME
+
+========================================
+
+========================================
+              COMPRESS VLM              
+========================================
+
+optimum-cli export openvino \
+  --model MODEL_PATH \
+  --weight-format int4 \
+  --group-size -1 \
+  --sym \
+  --awq \
+  --scale-estimation \
+  --dataset contextual \
+  --task image-text-to-text \
+  ./COMRPESSED_MODEL_NAME
+
+========================================
