@@ -8,3 +8,5 @@ Qwen2.5-VL-3B-Instruct-ov/
 
 *.txt
 *.png
+
+!how_to_compress.txt
